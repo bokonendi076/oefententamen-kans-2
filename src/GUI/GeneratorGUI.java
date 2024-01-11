@@ -49,7 +49,6 @@ public class GeneratorGUI extends Application {
 
         generatePass.setOnAction(event -> {
             // Perform the desired action when the button is clicked
-            System.out.println("Generate button clicked!");
             passStrength.setText("Strength: " + passwordStrength().toString()); 
             yourPassword.setText(generatePassword().toString());
             
